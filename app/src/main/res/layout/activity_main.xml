@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_micalculadora"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.filia.practice1.MainActivity">
+
+    <LinearLayout style="@style/LayaoutStyle2">
+
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:textColor="@color/gray"
+            android:text=""
+            android:textAlignment="viewEnd"
+            android:id="@+id/eNumero2"
+            />
+    </LinearLayout>
+    <LinearLayout style="@style/LayaoutStyle">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:id="@+id/eNumero"
+            android:text=""
+            android:textAlignment="viewEnd"
+            android:background="@color/white"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout style="@style/LayaoutStyle">
+
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/bt7"
+            android:text="7"
+            />
+
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/bt8"
+            android:text="8"
+            />
+
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/bt9"
+            android:text="9"
+            />
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/btsuma"
+            android:text="+"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/LayaoutStyle">
+
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/bt4"
+            android:text="4"
+            />
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/bt5"
+            android:text="5"
+            />
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/bt6"
+            android:text="6"
+            />
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/btresta"
+            android:text="-"
+            />
+
+    </LinearLayout>
+    <LinearLayout style="@style/LayaoutStyle">
+
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/bt1"
+            android:text="1"
+            />
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/bt2"
+            android:text="2"
+            />
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/bt3"
+            android:text="3"
+            />
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/btmulti"
+            android:text="*"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/LayaoutStyle">
+
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/btpunto"
+            android:text="."
+            />
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/bt0"
+            android:text="0"
+            />
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/btborrar"
+            android:text="AC"
+            />
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/btdivi"
+            android:text="/"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/LayaoutStyle">
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/btigual"
+            android:text="="
+            />
+
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
+
